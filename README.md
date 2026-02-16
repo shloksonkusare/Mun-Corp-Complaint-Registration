@@ -127,13 +127,17 @@ municipal-complaint-system/
 
 - Node.js 18+
 
-```npm or yarn```
+```
+npm or yarn
+```
 
 #### Python Dependencies
 
 Installed via:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 Main packages:
@@ -187,11 +191,15 @@ Each folder name becomes the prediction class label.
 
 Navigate to backend:
 
-```cd backend```
+```
+cd backend
+```
 
 Run:
 
-```python train_model.py```
+```
+python train_model.py
+```
 
 
 This will:
@@ -225,12 +233,16 @@ venv\Scripts\activate     # Windows
 source venv/bin/activate  # Mac/Linux
 ```
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 Run backend:
 
-```uvicorn app.main:app --reload```
+```
+uvicorn app.main:app --reload
+```
 
 
 Backend runs at:
